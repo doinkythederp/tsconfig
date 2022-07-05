@@ -1,0 +1,5 @@
+// Use if you need to lint files not usually in the `include` list
+{
+  "extends": "./tsconfig.json",
+  "include": ["**/*"]
+}

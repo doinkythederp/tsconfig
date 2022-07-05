@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // change to match env
+    "module": "CommonJS", // change to match env
+    "lib": ["ES2022"], // change to match env
+    "isolatedModules": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "types": ["node"], // remove node in browsers
+    // For libraries:
+    "declaration": true,
+    "declarationMap": true,
+    // For applications:
+    "sourceMap": true
+  },
+  "include": ["./src/**/*"]
+}
